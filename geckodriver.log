@@ -1,0 +1,275 @@
+1487805521771	geckodriver	INFO	Listening on 127.0.0.1:54237
+1487805522770	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.WjXQLHyeH0Uj
+1487805522772	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487805522793	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54246
+1487805523747	Marionette	INFO	Listening on port 54246
+1487863562338	geckodriver	INFO	Listening on 127.0.0.1:54575
+1487863563326	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.5eeCgpE96rgj
+1487863563329	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487863563346	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54584
+1487863564272	Marionette	INFO	Listening on port 54584
+1487863651989	geckodriver	INFO	Listening on 127.0.0.1:54630
+1487863652980	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.7rjSdYqGsBmB
+1487863652982	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487863652986	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54639
+1487863653672	Marionette	INFO	Listening on port 54639
+1487863978198	geckodriver	INFO	Listening on 127.0.0.1:54681
+1487863979197	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.GTd7T8qSQqsV
+1487863979199	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487863979203	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54690
+1487863979895	Marionette	INFO	Listening on port 54690
+1487899994730	geckodriver	INFO	Listening on 127.0.0.1:63682
+1487899995735	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.OK2R4Y6ngmBD
+1487899995737	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487899995742	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63691
+1487899996519	Marionette	INFO	Listening on port 63691
+1487900043551	geckodriver	INFO	Listening on 127.0.0.1:63773
+1487900044545	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.qOohGC2sU7o3
+1487900044547	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487900044551	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63782
+1487900045388	Marionette	INFO	Listening on port 63782
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.getPageSource@chrome://marionette/content/driver.js:1078:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:483:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.getPageSource@chrome://marionette/content/driver.js:1078:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:483:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown in a Promise rejection callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.getPageSource@chrome://marionette/content/driver.js:1078:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:483:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+Marionette threw an error: TypeError: this.browserForTab is undefined
+hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.getPageSource@chrome://marionette/content/driver.js:1078:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:483:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A00C3,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://app/modules/URLBarZoom.jsm, line 24: TypeError: win is null
+1487962946089	geckodriver	INFO	Listening on 127.0.0.1:49724
+1487962947101	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.CevoDMkCIcYx
+1487962947106	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487962947112	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49733
+1487962948138	Marionette	INFO	Listening on port 49733
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+1487963018864	geckodriver	INFO	Listening on 127.0.0.1:49824
+1487963019840	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.uxUlRTVqwcTq
+1487963019845	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487963019851	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49833
+1487963020666	Marionette	INFO	Listening on port 49833
+1487963272845	geckodriver	INFO	Listening on 127.0.0.1:49925
+1487963273834	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.1WwyEqsDRzU4
+1487963273836	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487963273840	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49934
+1487963274564	Marionette	INFO	Listening on port 49934
+1487963347457	geckodriver	INFO	Listening on 127.0.0.1:50034
+1487963348431	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.TD71jM6qnovc
+1487963348433	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487963348437	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50043
+1487963349176	Marionette	INFO	Listening on port 50043
+1487963392738	geckodriver	INFO	Listening on 127.0.0.1:50130
+1487963393724	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.TKqjffCkWO2e
+1487963393726	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487963393730	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50139
+1487963394396	Marionette	INFO	Listening on port 50139
+1487963683985	geckodriver	INFO	Listening on 127.0.0.1:50324
+1487963684981	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.HMW3HjBLH6UR
+1487963684984	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487963684989	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50333
+1487963685774	Marionette	INFO	Listening on port 50333
+1487963831149	geckodriver	INFO	Listening on 127.0.0.1:50439
+1487963832144	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.DobgFthBSzNL
+1487963832147	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487963832151	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50448
+1487963833078	Marionette	INFO	Listening on port 50448
+1487964009639	geckodriver	INFO	Listening on 127.0.0.1:50544
+1487964010669	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.NeVmUM6UjyHY
+1487964010672	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487964010679	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50553
+1487964011617	Marionette	INFO	Listening on port 50553
+1487964218060	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1487964819715	geckodriver	INFO	Listening on 127.0.0.1:50695
+1487964820722	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.3Cfh4gzN6DtX
+1487964820725	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487964820729	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50704
+1487964821486	Marionette	INFO	Listening on port 50704
+1487964875070	geckodriver	INFO	Listening on 127.0.0.1:50789
+1487964876067	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.bQxkBXkRiHSV
+1487964876070	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487964876075	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50798
+1487964876876	Marionette	INFO	Listening on port 50798
+1487964912420	geckodriver	INFO	Listening on 127.0.0.1:50884
+1487964913406	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.EaZsoG47l584
+1487964913408	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487964913413	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50893
+1487964914186	Marionette	INFO	Listening on port 50893
+1487965143377	geckodriver	INFO	Listening on 127.0.0.1:51002
+1487965144370	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.8bl0fyYevzan
+1487965144373	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487965144377	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51011
+1487965145166	Marionette	INFO	Listening on port 51011
+[Child 31198] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+[Child 31198] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1487965272263	geckodriver	INFO	Listening on 127.0.0.1:51100
+1487965273254	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.LimKJkXvwk4m
+1487965273256	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487965273261	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51109
+1487965274035	Marionette	INFO	Listening on port 51109
+[Child 31231] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+[Child 31231] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1487965727375	geckodriver	INFO	Listening on 127.0.0.1:51249
+1487965728387	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.J2KhcbLp8sVs
+1487965728390	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487965728394	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51258
+1487965729372	Marionette	INFO	Listening on port 51258
+1487966340644	geckodriver	INFO	Listening on 127.0.0.1:51416
+1487966341635	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.TGqjfl5e5pcT
+1487966341637	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487966341642	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51425
+1487966342350	Marionette	INFO	Listening on port 51425
+[Child 31526] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+[Child 31526] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1488230399624	geckodriver	INFO	Listening on 127.0.0.1:59717
+1488230400659	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.ucp2uXwGkenL
+1488230400662	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488230400667	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59726
+1488230401745	Marionette	INFO	Listening on port 59726
+1488230430422	geckodriver	INFO	Listening on 127.0.0.1:59813
+1488230431347	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.loSteX4IIHN6
+1488230431349	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488230431354	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59822
+1488230432185	Marionette	INFO	Listening on port 59822
+[Child 41259] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+[Child 41259] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1488382484163	geckodriver	INFO	Listening on 127.0.0.1:49576
+1488382485214	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.11QPPi19kVEJ
+1488382485217	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488382485242	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49586
+1488382486311	Marionette	INFO	Listening on port 49586
+1488382543235	geckodriver	INFO	Listening on 127.0.0.1:49744
+1488382544233	mozprofile::profile	INFO	Using profile path /var/folders/tb/59cws0bj4fqd2jrlvmfltj8m0000gn/T/rust_mozprofile.fvRt1UL3ZWau
+1488382544236	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488382544241	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49753
+1488382545011	Marionette	INFO	Listening on port 49753
+[Child 55528] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+[Child 55528] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
