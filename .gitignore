@@ -1,2 +1,4 @@
 *.ipynb
 geckodriver.log
+journal.md
+mongocommands.txt

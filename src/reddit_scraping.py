@@ -20,7 +20,8 @@ class Reddit_Scrape(object):
 
     def get_approved_subs(self):
         """
-        Gets the list of approved subreddits.
+        Gets the list of approved subreddits that are used in top, but this seems to have changed with the /r/popular change.
+        Currently not in use, and captures all subreddits.
         """
         with open('subreddits.txt') as f:
             subreddits = f.read()

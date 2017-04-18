@@ -31,6 +31,8 @@ class Scrape(object):
         if self.got_source == True:
             self.soup = BeautifulSoup(self.source, 'html.parser')
             return self.soup
+        else:
+            return None
 
     def shutdown(self):
         '''
