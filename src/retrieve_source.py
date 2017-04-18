@@ -11,7 +11,7 @@ class Scrape(object):
         self.got_source = False
         self.soup = None
         self.source = None
-        self.browser = webdriver.Firefox()
+        self.browser = webdriver.PhantomJS()
 
     def get_source(self, html, ret = False, delay = 10):
         '''

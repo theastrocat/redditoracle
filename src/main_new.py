@@ -14,7 +14,7 @@ from reddit_scraping import Reddit_Scrape
 
 client = MongoClient('mongodb://localhost:27017/')
 db = client.reddit_new_db
-reddit_new_db = db.reddit_new_db
+reddit_new_db = db.reddit_new
 
 working = True
 check_delay = 900

@@ -11,8 +11,8 @@ from retrieve_source import Scrape
 from reddit_scraping import Reddit_Scrape
 
 client = MongoClient('mongodb://localhost:27017/')
-db = client.reddit_new_db
-reddit_new_db = db.reddit_new_db
+db = client.reddit_top_db
+reddit_new_db = db.reddit_top
 
 working = True
 check_delay = 7200

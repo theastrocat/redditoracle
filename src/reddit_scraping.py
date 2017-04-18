@@ -16,7 +16,7 @@ class Reddit_Scrape(object):
         self.posts = self.reddit_soup.select('div.thing')
         self.subs = None
         self.post_dict = {}
-        self.get_approved_subs()
+        #self.get_approved_subs()
 
     def get_approved_subs(self):
         """
