@@ -16,21 +16,10 @@ class Reddit_Scrape(object):
         self.posts = self.reddit_soup.select('div.thing')
         self.subs = None
         self.post_dict = {}
-        #self.get_approved_subs()
-
-    def get_approved_subs(self):
-        """
-        Gets the list of approved subreddits that are used in top, but this seems to have changed with the /r/popular change.
-        Currently not in use, and captures all subreddits.
-        """
-        with open('subreddits.txt') as f:
-            subreddits = f.read()
-        self.subs = [x.strip('//r//') for x in subreddits.split()]
 
     def get_comments_html(self, post):
         """
         Gets the html links to the comments section and subreddit.
-        !!! Having issiues with finding subreddits...
         """
         if len(post.select('a.bylink')) != 0:
             section = str(post.select('a.bylink')[0])

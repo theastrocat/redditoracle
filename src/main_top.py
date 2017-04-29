@@ -1,5 +1,6 @@
 """
-Module for scaping reddit top (front page).
+Module for scaping reddit top (front page) posts and adding them to mongo database.
+Still needs a method for excluding posts that are already in the database.
 """
 import time
 from bs4 import BeautifulSoup
@@ -7,7 +8,6 @@ from pymongo import MongoClient
 import datetime
 import random
 
-from retrieve_source import Scrape
 from reddit_scraping import Reddit_Scrape
 
 client = MongoClient('mongodb://localhost:27017/')

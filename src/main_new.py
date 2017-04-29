@@ -9,7 +9,6 @@ from pymongo import MongoClient
 import datetime
 import random
 
-from retrieve_source import Scrape
 from reddit_scraping import Reddit_Scrape
 
 client = MongoClient('mongodb://localhost:27017/')

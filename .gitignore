@@ -2,3 +2,5 @@
 geckodriver.log
 journal.md
 mongocommands.txt
+src/*.pyc
+ghostdriver.log
