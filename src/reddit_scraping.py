@@ -2,7 +2,6 @@ from retrieve_source import Scrape
 from bs4 import BeautifulSoup
 import re
 
-
 """
 Scraping file to be called every few min, pass in which html to be directed to.
 """
