@@ -1,10 +1,8 @@
 """
 Main module loop for pulling the 100 most recent new posts and adding them to mongo database.
-Still needs a method for excluding posts that are already in the database.
+Hitting a memory error on
 """
-
 import time
-from bs4 import BeautifulSoup
 from pymongo import MongoClient
 import datetime
 import random
@@ -28,14 +26,20 @@ page_list = ['http://www.reddit.com/new/',
 
 while working == True:
     for html in page_list:
+        print "Scraping {}".format(html)
         reddit_posts = Reddit_Scrape(html)
         scrape_time = datetime.datetime.now()
         reddit_dict = reddit_posts.main_loop()
+        print "Inserting to DB..."
         for post,content in reddit_dict.items():
             reddit_new_db.insert_one({
                 'post': post,
                 'info': content,
                 'time': scrape_time
             })
-        time.sleep(page_delay + int(random.random()*10))
-    time.sleep(check_delay + int(random.random()*100))
+        wait1 = page_delay + int(random.random()*10)
+        print "Inserted. Waiting {} seconds.".format(wait1)
+        time.sleep(wait1)
+    wait2 = check_delay + int(random.random()*100)
+    print "Finished set, waiting {} seconds to start again.".format(wait2)
+    time.sleep(wait2)
